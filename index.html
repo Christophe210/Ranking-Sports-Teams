@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Team Rankings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Sports Team Rankings</h1>
+    <div style="padding-top: 10px;">
+        <marquee onMouseOver="this.stop()" onMouseOut="this.start()">  Ranking Sports Teams. This is for Education purpose only Design & Development by <a href="https://christophe210.github.io/Tsinda-Media_App/" target="_blank">Tsinda Media Ltd</a></marquee>
+    </div>
+    <div id="team-form">
+        <h2>Add New Team</h2>
+        <label for="team-name">Team Name:</label>
+        <input type="text" id="team-name" required><br>
+        <label for="wins">Wins:</label>
+        <input type="number" id="wins" required><br>
+        <label for="losses">Losses:</label>
+        <input type="number" id="losses" required><br>
+        <label for="goals-scored">Goals Scored:</label>
+        <input type="number" id="goals-scored" required><br>
+        <button id="add-team-btn">Add Team</button> <!-- Corrected button id -->
+    </div>
+    <div id="team-list">
+        <!-- Team rankings will be dynamically added here -->
+    </div>
+
+    <div style="padding-top: 10px;">
+        <marquee onMouseOver="this.stop()" onMouseOut="this.start()">  Ranking Sports Teams. This is for Education purpose only Design & Development by <a href="https://christophe210.github.io/Tsinda-Media_App/" target="_blank">Tsinda Media Ltd</a></marquee>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
